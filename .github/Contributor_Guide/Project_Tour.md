@@ -1,12 +1,49 @@
 # Project Tour
 
-* notes:
-*  > Discuss about your project file structure
-*  > what each folder is responsible
-*  > then go through each file in folders and explain there purpose
-*  > if possible create a doc system ( there are autogen docs available for most of the languages )
-*  > decide coding style , linting style and formatting style and other themes like variable naming etc.
-*  > provide an example for existing function and tests system if possible 
-*  
+## Folder Structure
+Folders:
+* .dart_tool
+* .github
+    * Contributor_Guide
+        * Contributing.md:- Contributing guidlines.
+        * Project_Tour.md:- Details of project.
+        * commiting.md:- Commiting Guidelines
+    * ISSUE_TEMPLATE
+        * bug_report.yaml:- Template to raise a bug isssue.
+        * feature_request.yaml:- Template to raise a bug isssue.
+    * PULL_REQUEST_TEMPLATE
+        * pr.md:- Template of pull request.
+* .husky:- For project managers.
+* src
+    * .idea
+    * android
+    * assetes:- contains images, icons, animation ets.
+    * ios
+    * lib
+        * pages:- Contains source code of different screen.
+        * services:- Contain source code of firebase services. 
+        * widgets:- Contain source code of  custon widgets.
+        Files:
+        * firebase_options.dart
+        * main.dart
+    * linux
+    * macos
+    * test 
+    * web
+    * windows
+    Files:
+    * .flutter-plugins
+    * .flutter-plugins-dependencies
+    * .metadata
+    * pubspec.lock
+    * pubspec.yaml
+    * todo_app.iml
+    * analysis_options.yaml
+Files:
+* .gitignore
+* CODE_OF_CONDUCT.md
+* README.md
+* commitlint.config.js
+* package-lock.json
+* package.json
 
-# MAKE SURE PROJECT MANAGERS UPDATE THIS MD 
