@@ -28,7 +28,7 @@ If you have any questions or feedback, please reach out to us at ashutosh.220106
 
 ### Setup
 
-To set up **code-a-licious** on your local machine, follow these steps:
+To set up **todoapp** on your local machine, follow these steps:
 
 
 

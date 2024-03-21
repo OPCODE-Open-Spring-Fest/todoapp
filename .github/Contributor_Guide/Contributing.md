@@ -10,7 +10,7 @@ If you are new to todoapp, please take a look at the [documentation](./Project_T
 
 ## New Contributor Guide
 
-To get an overview of the codebase, check out the '[README.md](README.md)' file .
+To get an overview of the codebase, check out the '[README.md](/README.md)' file .
 
 that will help you understand the structure of the project.
 
