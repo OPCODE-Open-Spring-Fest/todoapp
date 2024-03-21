@@ -208,13 +208,14 @@ class _AddTodoPageState extends State<AddTodoPage> {
                         type == "" ||
                         category == "") {
                       uihelper.CustomAlertBox(context, "Enter all fields!");
-                    } else
-                      {FirebaseFirestore.instance.collection("Todo").add({
+                    } else {
+                      FirebaseFirestore.instance.collection("Todo").add({
                         'title': taskTitleController.text,
                         'task': type,
                         'category': category,
                         "description": taskDescController.text
-                      }).then((value) => Navigator.pop(context));}
+                      }).then((value) => Navigator.pop(context));
+                    }
                   }, "Add Task", context),
                   SizedBox(
                     height: 25,

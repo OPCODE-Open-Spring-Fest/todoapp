@@ -23,6 +23,7 @@ Folders:
         * pages:- Contains source code of different screen.
         * services:- Contain source code of firebase services. 
         * widgets:- Contain source code of  custon widgets.
+        
         Files:
         * firebase_options.dart
         * main.dart
